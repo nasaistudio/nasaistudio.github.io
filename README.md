@@ -1,17 +1,27 @@
 # NAS AI Studio
 
-AI fashion content for clothing brands.
+AI creative studio: images, video and voice for brands and creators.
 
-NAS AI Studio creates fictional AI fashion models and uses them to turn a brand's flat product photos into finished marketing content:
+**Live site:** https://nasaistudio.github.io
 
-- AI model and lifestyle photos
-- Catalog images
-- Model reels
-- UGC-style video ads
-- 3D realistic product videos
+## Pages
 
-Every model is built once as a reference set (face angles, body sheet and expressions), so the same model stays consistent across a whole campaign.
+| Page | File | What it covers |
+|---|---|---|
+| Home | `index.html` | Studio overview, services, intro video, contact |
+| Fashion | `fashion.html` | AI fashion models, model and lifestyle photos for clothing brands |
+| Voice & Dubbing | `voice.html` | AI dubbing in 30+ languages, voiceovers, subtitles, transcripts, audio cleanup |
+| Responsible AI | `responsible-ai.html` | Consent, voices, AI presenters and disclosure |
 
-**Live portfolio:** https://nasaistudio.github.io
+Planned: a Video & UGC-style ads page.
 
-All models shown are fictional and all images are AI-generated.
+## Structure
+
+- `assets/site.css`, `assets/site.js`: shared styles and scripts for every page
+- `img/`: fashion images
+- `media/voice/`: voice and dubbing samples (video, audio, subtitles)
+- `docs/`: downloadable PDFs
+
+Sections on `fashion.html` that are still waiting for samples are hidden in HTML comments marked `HIDDEN until samples are added`. Uncomment a block once its images or videos are ready.
+
+All models and presenters are fictional. Voice samples use the founder's own voice with recorded consent.
