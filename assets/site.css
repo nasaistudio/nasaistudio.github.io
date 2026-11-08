@@ -326,3 +326,11 @@ pre.srt i { color: #8fa3c9; font-style: normal; }
 
 .line a.copy { display: inline-flex; align-items: center; text-decoration: none; }
 @media (prefers-reduced-motion: reduce) { .door { transition: none; } .door:hover { transform: none; } }
+
+/* Home: two service doors, hero card aligned with the headline */
+@media (min-width: 820px) { .doors.two { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+.doors.two .door img { aspect-ratio: 16 / 9; }
+@media (min-width: 900px) {
+  .hero.hero-top .wrap { align-items: start; }
+  .hero.hero-top .tag { margin-top: 46px; }
+}
