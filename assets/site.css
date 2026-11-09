@@ -334,3 +334,12 @@ pre.srt i { color: #8fa3c9; font-style: normal; }
   .hero.hero-top .wrap { align-items: start; }
   .hero.hero-top .tag { margin-top: 46px; }
 }
+
+/* UGC ad clips */
+.ugc-row { display: grid; gap: 20px; grid-template-columns: minmax(0, 1fr); max-width: 760px; }
+@media (min-width: 720px) { .ugc-row { grid-template-columns: minmax(0, 340px) minmax(0, 1fr); } }
+.ugc-clip { margin: 0; display: contents; }
+.ugc-clip video { width: 100%; aspect-ratio: 9 / 16; border-radius: 22px; background: #14141a; display: block; border: 1px solid var(--glass-edge); }
+.ugc-clip figcaption { display: grid; gap: 8px; align-content: center; }
+.ugc-clip figcaption b { font-family: var(--f-display); font-weight: 400; font-size: 30px; line-height: 1.1; }
+.ugc-clip figcaption span:last-child { color: var(--ink-2); }
