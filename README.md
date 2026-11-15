@@ -12,6 +12,7 @@ AI creative studio: images, video and voice for brands and creators.
 | Fashion | `fashion.html` | AI fashion models, model and lifestyle photos for clothing brands |
 | Voice & Dubbing | `voice.html` | AI dubbing in 30+ languages, voiceovers, subtitles, transcripts, audio cleanup |
 | Responsible AI | `responsible-ai.html` | Consent, voices, AI presenters and disclosure |
+| Service site | `studio/index.html` | A separate, minimal sales page for clothing brands: services, work samples, packages, FAQ and a WhatsApp brief form. It reuses the portfolio's images and videos from `img/` and `media/`. |
 
 Planned: a Video & UGC-style ads page.
 
