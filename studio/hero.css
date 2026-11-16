@@ -41,3 +41,9 @@
 @media (min-width: 760px) { .world-row { grid-auto-columns: 30%; } }
 @media (min-width: 1040px) { .world-row { grid-auto-flow: row; grid-auto-columns: auto; grid-template-columns: repeat(6, minmax(0, 1fr)); overflow: visible; gap: 14px; } }
 @media (prefers-reduced-motion: reduce) { .world video, .world:hover video { transform: none; transition: none; } .sound-icon { animation: none !important; } }
+
+/* Any-product services */
+.cats { list-style: none; margin: -12px 0 36px; padding: 0; display: flex; flex-wrap: wrap; gap: 8px; }
+.cats li { padding: 8px 14px; border-radius: 999px; background: var(--tint); color: var(--ink); font-size: 14px; }
+@media (min-width: 700px) { .services { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (min-width: 1040px) { .services { grid-template-columns: repeat(3, minmax(0, 1fr)); column-gap: 40px; } .service { border-bottom: 1px solid var(--line); } }
