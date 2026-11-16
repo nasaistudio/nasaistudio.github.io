@@ -1,0 +1,292 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>NAS AI Studio · On-model photos and ads for clothing brands</title>
+<meta name="description" content="Send a product photo. Get on-model photos, AI fashion models and UGC-style video ads for your clothing brand, without a photoshoot. Free sample on one garment.">
+<meta name="robots" content="noindex">
+<meta name="theme-color" content="#18191C">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Urbanist:wght@500;600;700;800&family=Inter:wght@300;400;500&family=JetBrains+Mono:wght@400;500&display=swap">
+<link rel="preload" as="image" href="3d/frames/000.webp">
+<link rel="stylesheet" href="3d.css?v=1">
+</head>
+<body>
+
+<header class="top">
+  <div class="wrap bar">
+    <a class="brand" href="#top"><span class="mark" aria-hidden="true">N</span>NAS AI Studio</a>
+    <nav class="nav" aria-label="Sections">
+      <a href="#details">Details</a>
+      <a href="#work">Work</a>
+      <a href="#built">Process</a>
+      <a href="#models">Models</a>
+      <a href="#ads">Ads</a>
+      <a href="#packages">Packages</a>
+    </nav>
+    <a class="btn solid small" href="#contact">Free sample</a>
+  </div>
+</header>
+
+<main id="top">
+
+  <!-- 1 · Hero: the jacket turns as you scroll -->
+  <section class="scrub" id="hero" aria-label="Introduction">
+    <div class="pin">
+      <canvas class="turn" width="1280" height="720" aria-hidden="true"></canvas>
+      <img class="turn-fallback" src="3d/hero_poster.jpg" alt="" aria-hidden="true">
+      <div class="shade" aria-hidden="true"></div>
+      <div class="hud hud-tl mono" aria-hidden="true"><span>NAS/AI — 01</span><span>Object · suit jacket</span></div>
+      <div class="hud hud-tr mono" aria-hidden="true"><span>Rotation</span><b class="deg">000°</b></div>
+      <div class="hud hud-br mono" aria-hidden="true"><span>Scroll to turn</span><i class="bar-p"><i></i></i></div>
+      <div class="wrap hero-copy">
+        <p class="eyebrow mono">AI studio for clothing brands</p>
+        <h1>Your garments on models. <span class="nowrap">No <mark>photoshoot</mark>.</span></h1>
+        <p class="lede">Send a flat-lay or a phone photo of your product. Get on-model photos, a consistent AI model for your brand and video ads, ready for your store and your feed.</p>
+        <div class="cta">
+          <a class="btn solid" href="#contact">Get a free sample</a>
+          <a class="btn line" href="#work">See the work</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 2 · Details matter -->
+  <section class="band" id="details">
+    <div class="wrap">
+      <div class="head split-head">
+        <h2 class="mega" data-reveal>Details<br>matter.</h2>
+        <div data-reveal>
+          <p class="eyebrow mono">01 · Fidelity</p>
+          <p class="sub">Every lapel, button and weave is kept true to the garment you send. You review each image before you take the files, and anything off gets fixed.</p>
+        </div>
+      </div>
+      <div class="details">
+        <figure class="tilt" data-reveal><img loading="lazy" src="3d/detail_lapel.jpg" alt="Close-up of the notch lapel and chest pocket"><figcaption class="mono">Lapel · 01</figcaption></figure>
+        <figure class="tilt" data-reveal><img loading="lazy" src="3d/detail_buttons.jpg" alt="Close-up of the front buttons and wool texture"><figcaption class="mono">Buttons · 02</figcaption></figure>
+        <figure class="tilt" data-reveal><img loading="lazy" src="3d/detail_pocket.jpg" alt="Close-up of the pocket flap"><figcaption class="mono">Pocket · 03</figcaption></figure>
+        <figure class="tilt" data-reveal><img loading="lazy" src="3d/detail_cuff.jpg" alt="Close-up of the sleeve cuff buttons"><figcaption class="mono">Cuff · 04</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3 · Work: before and after -->
+  <section class="band" id="work">
+    <div class="wrap">
+      <div class="head split-head">
+        <h2 class="mega" data-reveal>Flat-lay<br>to <mark>finished</mark>.</h2>
+        <div data-reveal>
+          <p class="eyebrow mono">02 · On-model photos</p>
+          <p class="sub">Drag each image. Left is the product photo the brand sent, right is the image that went on the product page.</p>
+        </div>
+      </div>
+      <div class="ba-row">
+        <figure data-reveal>
+          <div class="ba" style="--p:50%">
+            <div class="layer"><img loading="lazy" src="../img/m4-ai.jpg" alt="AI result: a model in a burgundy half-zip sweatshirt, dark jeans and loafers"></div>
+            <div class="layer before"><img loading="lazy" src="../img/m4-original.jpg" alt="Original product photos: burgundy half-zip sweatshirt and dark balloon jeans"></div>
+            <span class="tag l mono">You send</span><span class="tag r mono">You get</span>
+            <div class="divider"></div><div class="knob" aria-hidden="true">‹ ›</div>
+            <input type="range" min="0" max="100" value="50" aria-label="Compare original and AI result, casual outfit">
+          </div>
+          <figcaption class="mono">Casual · half-zip and jeans</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="ba" style="--p:50%">
+            <div class="layer"><img loading="lazy" src="../img/m5-ai.jpg" alt="AI result: a model in a print t-shirt, grey jeans, grey coat and white trainers"></div>
+            <div class="layer before"><img loading="lazy" src="../img/m5-original.jpg" alt="Original product photos: print t-shirt and grey washed jeans"></div>
+            <span class="tag l mono">You send</span><span class="tag r mono">You get</span>
+            <div class="divider"></div><div class="knob" aria-hidden="true">‹ ›</div>
+            <input type="range" min="0" max="100" value="50" aria-label="Compare original and AI result, streetwear outfit">
+          </div>
+          <figcaption class="mono">Streetwear · print tee and coat</figcaption>
+        </figure>
+        <figure data-reveal>
+          <div class="ba" style="--p:50%">
+            <div class="layer"><img loading="lazy" src="../img/m3-ai.jpg" alt="AI result: a model in a charcoal suit, white shirt and tie"></div>
+            <div class="layer before"><img loading="lazy" src="../img/m3-original.jpg" alt="Original product photos: charcoal suit, white shirt and knit tie"></div>
+            <span class="tag l mono">You send</span><span class="tag r mono">You get</span>
+            <div class="divider"></div><div class="knob" aria-hidden="true">‹ ›</div>
+            <input type="range" min="0" max="100" value="50" aria-label="Compare original and AI result, tailoring">
+          </div>
+          <figcaption class="mono">Tailoring · suit, shirt and tie</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4 · How it's built: an exploded stack that opens as you scroll -->
+  <section class="stack-scroll" id="built" aria-label="How it is built">
+    <div class="pin">
+      <div class="wrap stack-grid">
+        <div class="stack-copy">
+          <p class="eyebrow mono">03 · Process</p>
+          <h2 class="mega">Built in<br><mark>layers</mark>.</h2>
+          <ol class="layer-list">
+            <li data-layer="0"><span class="mono">L1</span><div><b>Your product photo</b><p>A flat-lay or a phone photo is enough.</p></div></li>
+            <li data-layer="1"><span class="mono">L2</span><div><b>A fixed AI model</b><p>One fictional face, reused in every shot.</p></div></li>
+            <li data-layer="2"><span class="mono">L3</span><div><b>The finished image</b><p>Reviewed by you, delivered in every format you need.</p></div></li>
+          </ol>
+        </div>
+        <div class="stack" aria-hidden="true">
+          <div class="plane p0"><img src="../img/m3-original.jpg" alt=""><span class="mono">L1 · input</span></div>
+          <div class="plane p1"><img src="../img/darius-front.jpg" alt=""><span class="mono">L2 · model</span></div>
+          <div class="plane p2"><img src="../img/m3-ai.jpg" alt=""><span class="mono">L3 · output</span></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5 · Models: a horizontal rail driven by vertical scroll -->
+  <section class="rail-scroll" id="models" aria-label="AI models">
+    <div class="pin">
+      <div class="wrap rail-head">
+        <h2 class="mega">The <mark>models</mark>.</h2>
+        <p class="sub">Every model is fictional. Pick a face, or have one built for your brand as a full reference set.</p>
+      </div>
+      <div class="rail">
+        <div class="track">
+          <figure class="card"><img loading="lazy" src="../img/other-03.jpg" alt="Hamza, AI model"><figcaption class="mono"><span>Hamza</span><span>M · 01</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/female-sana.jpg?v=2" alt="Sana, AI model"><figcaption class="mono"><span>Sana</span><span>F · 01</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/other-02.jpg" alt="Oliver, AI model"><figcaption class="mono"><span>Oliver</span><span>M · 02</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/female-sofia.jpg" alt="Sofia, AI model"><figcaption class="mono"><span>Sofia</span><span>F · 02</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/other-05.jpg" alt="Karim, AI model"><figcaption class="mono"><span>Karim</span><span>M · 03</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/female-noor.jpg" alt="Noor, AI model"><figcaption class="mono"><span>Noor</span><span>F · 03</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/other-04.jpg" alt="Finn, AI model"><figcaption class="mono"><span>Finn</span><span>M · 04</span></figcaption></figure>
+          <figure class="card"><img loading="lazy" src="../img/female-isla.jpg" alt="Isla, AI model"><figcaption class="mono"><span>Isla</span><span>F · 04</span></figcaption></figure>
+          <figure class="card wide"><img loading="lazy" src="../img/adam-body.jpg" alt="A model reference sheet: body from the front, side and back"><figcaption class="mono"><span>Reference set</span><span>Front · side · back</span></figcaption></figure>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6 · Ads -->
+  <section class="band" id="ads">
+    <div class="wrap">
+      <div class="head split-head">
+        <h2 class="mega" data-reveal>Ads that<br><mark>move</mark>.</h2>
+        <div data-reveal>
+          <p class="eyebrow mono">04 · UGC-style video</p>
+          <p class="sub">An AI presenter, your product and a natural voice, built for TikTok, Reels and Meta. Presenters are fictional and labelled as AI in every video.</p>
+        </div>
+      </div>
+      <div class="ads">
+        <figure data-reveal>
+          <video controls preload="none" playsinline poster="../media/ugc/zorva-lime-strike-rayan-poster.jpg"><source src="../media/ugc/zorva-lime-strike-rayan.mp4" type="video/mp4"></video>
+          <figcaption class="mono"><span>Energy drink</span><span>30 s</span></figcaption>
+        </figure>
+        <figure data-reveal>
+          <video controls preload="none" playsinline poster="../media/ugc/night-amber-inaya-poster.jpg"><source src="../media/ugc/night-amber-inaya.mp4" type="video/mp4"></video>
+          <figcaption class="mono"><span>Perfume</span><span>15 s</span></figcaption>
+        </figure>
+        <figure data-reveal>
+          <video controls preload="none" playsinline poster="../media/ugc/suede-bomber-mira-poster.jpg"><source src="../media/ugc/suede-bomber-mira.mp4" type="video/mp4"></video>
+          <figcaption class="mono"><span>Jacket</span><span>3 details</span></figcaption>
+        </figure>
+      </div>
+      <p class="note">The brands in these samples are fictional and were made to show the work.</p>
+    </div>
+  </section>
+
+  <!-- 7 · Packages -->
+  <section class="band" id="packages">
+    <div class="wrap">
+      <div class="head split-head">
+        <h2 class="mega" data-reveal>Pick a<br><mark>package</mark>.</h2>
+        <div data-reveal>
+          <p class="eyebrow mono">05 · Packages</p>
+          <p class="sub">Each package builds on the one before it. The price depends on how many garments and pieces you need; send your product photos and I will quote within a day.</p>
+        </div>
+      </div>
+      <div class="packs">
+        <article class="pack" data-reveal>
+          <span class="mono">P · 01</span><h3>Starter</h3>
+          <p class="for">For a store that needs better product pages.</p>
+          <ul><li>Model and lifestyle photos</li><li>Catalog images</li></ul>
+          <a class="btn line" href="#contact" data-pack="Starter">Ask for a quote</a>
+        </article>
+        <article class="pack" data-reveal>
+          <span class="mono">P · 02</span><h3>Growth</h3>
+          <p class="for">For brands posting reels every week.</p>
+          <ul><li>Everything in Starter</li><li>Model reels</li></ul>
+          <a class="btn line" href="#contact" data-pack="Growth">Ask for a quote</a>
+        </article>
+        <article class="pack" data-reveal>
+          <span class="mono">P · 03</span><h3>Full</h3>
+          <p class="for">For brands running paid ads.</p>
+          <ul><li>Everything in Growth</li><li>UGC-style ads</li><li>3D product videos</li></ul>
+          <a class="btn line" href="#contact" data-pack="Full">Ask for a quote</a>
+        </article>
+      </div>
+      <p class="note">Dubbing and voiceover can be added to any package.</p>
+    </div>
+  </section>
+
+  <!-- 8 · FAQ -->
+  <section class="band" id="faq">
+    <div class="wrap narrow">
+      <div class="head">
+        <p class="eyebrow mono">06 · FAQ</p>
+        <h2 class="mega" data-reveal>Questions.</h2>
+      </div>
+      <div class="faq">
+        <details><summary>What do I need to send?</summary><p>A clear photo of the garment: a flat-lay, a hanger shot or a phone photo. Add any notes on the look you want, the kind of model and where the images will be used.</p></details>
+        <details><summary>Will the garment look like mine?</summary><p>Yes. The garment is kept true to the original, and you review every image. If a detail is off, ask for a change before you take the final files.</p></details>
+        <details><summary>Are the models real people?</summary><p>No. Every model and presenter is fictional and AI-generated. Real faces are not used as references.</p></details>
+        <details><summary>How long does it take?</summary><p>Usually 1 to 3 days, depending on how many pieces you need.</p></details>
+        <details><summary>How does the free sample work?</summary><p>Send one product photo and I will make a sample from it, so you can judge the quality before you order anything.</p></details>
+        <details><summary>Do the ads say they are AI?</summary><p>Yes. Video ads carry an "AI-generated creator" label, and presenters show and explain the product without pretending to be real customers. See the <a href="../responsible-ai.html">Responsible AI policy</a>.</p></details>
+        <details><summary>What does it cost?</summary><p>It depends on the number of garments and the pieces per garment. Send your product photos and I will quote within a day.</p></details>
+      </div>
+    </div>
+  </section>
+
+  <!-- 9 · Contact -->
+  <section class="contact" id="contact">
+    <div class="wrap contact-grid">
+      <div>
+        <p class="eyebrow mono">07 · Free sample</p>
+        <h2 class="mega">Try it on one garment, <mark>free</mark>.</h2>
+        <p class="lede">Tell me about your brand and what you need. The button opens WhatsApp with your message ready to send; attach a product photo there.</p>
+        <p class="direct">Or message directly: <a href="https://wa.me/923282891558" target="_blank" rel="noopener">+92 328 2891558</a></p>
+      </div>
+      <form class="form" id="brief" novalidate>
+        <label class="mono">Your name<input name="name" autocomplete="name" required></label>
+        <label class="mono">Brand or store<input name="brand" autocomplete="organization"></label>
+        <label class="mono">What do you need?
+          <select name="need">
+            <option>A free sample on one garment</option>
+            <option>On-model photos</option>
+            <option>An AI model for my brand</option>
+            <option>UGC-style video ads</option>
+            <option>Dubbing and voice</option>
+            <option>Starter package</option>
+            <option>Growth package</option>
+            <option>Full package</option>
+          </select>
+        </label>
+        <label class="mono">Anything else<textarea name="note" rows="3" placeholder="Number of garments, the look you want, a deadline"></textarea></label>
+        <button class="btn solid" type="submit">Send on WhatsApp</button>
+        <p class="form-note">Nothing is stored on this site. Your message opens in WhatsApp.</p>
+      </form>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap bar">
+    <span class="mono">NAS AI Studio · 2026</span>
+    <nav aria-label="More"><a href="../index.html">Full portfolio</a><a href="../voice.html">Voice &amp; dubbing</a><a href="../responsible-ai.html">Responsible AI</a></nav>
+    <span class="mono">All imagery AI-generated</span>
+  </div>
+</footer>
+
+<a class="sticky-cta" href="#contact">Get a free sample</a>
+
+<script src="studio.js?v=1"></script>
+<script src="3d.js?v=1"></script>
+</body>
+</html>
