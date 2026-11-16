@@ -1,0 +1,23 @@
+/* Option E · Split: light silver page; graphite only for the header, the opening, the process band and the contact section. */
+:root {
+  --paper: #EEEFF1; --tint: #E2E3E6; --ink: #2B2D31; --ink-2: #63666C; --line: #D3D5D9;
+  --header-bg: rgba(43, 45, 49, 0.95);
+  --accent: #FFC035; --accent-ink: #1C1D20;
+  --hl-bg: #FFC035; --hl-ink: #1C1D20; --hl-style: normal;
+  --band: #2B2D31; --band-ink: #ECEDEE; --band-ink-2: #A3A6AC; --band-line: #4A4D53; --band-ph: #7A7D83;
+  --on-media: #ffffff;
+  --hl-radius: 14px; --hl-pad: 0 0.14em 0.02em; --h1-size: clamp(2.7rem, 7.4vw, 5rem); --h1-lh: 1.08;
+  --radius: 999px; --radius-media: 18px;
+  --f-display: 'Urbanist', 'Inter', system-ui, sans-serif; --display-weight: 600; --display-track: -0.02em;
+}
+/* the graphite blocks */
+.top, .hero, .band.tint {
+  --paper: #2B2D31; --tint: #34373C; --ink: #ECEDEE; --ink-2: #A3A6AC; --line: #42454B; --on-media: #ECEDEE;
+  color: var(--ink);
+}
+.top { border-bottom-color: #3A3D43; }
+.hero, .band.tint { background: var(--paper); }
+.hero + .band { border-top: 0; }
+.pack { background: #ffffff; border-color: #ffffff; }
+.btn.line:hover { background: var(--ink); color: var(--paper); }
+.form select option { color: #1C1D20; }

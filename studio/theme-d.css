@@ -1,0 +1,16 @@
+/* Option D · Slate: Graphite lifted a few shades, softer contrast, same silver and yellow. */
+:root {
+  --paper: #3B3E44; --tint: #34373C; --ink: #F2F3F4; --ink-2: #B9BCC2; --line: #4D5158;
+  --header-bg: rgba(59, 62, 68, 0.92);
+  --accent: #FFC035; --accent-ink: #1C1D20;
+  --hl-bg: #FFC035; --hl-ink: #1C1D20; --hl-style: normal;
+  --band: #2F3237; --band-ink: #F2F3F4; --band-ink-2: #B9BCC2; --band-line: #555960; --band-ph: #868A91;
+  --on-media: #F2F3F4;
+  --hl-radius: 14px; --hl-pad: 0 0.14em 0.02em; --h1-size: clamp(2.7rem, 7.4vw, 5rem); --h1-lh: 1.08;
+  --radius: 999px; --radius-media: 18px;
+  --f-display: 'Urbanist', 'Inter', system-ui, sans-serif; --display-weight: 600; --display-track: -0.02em;
+  color-scheme: dark;
+}
+.btn.line:hover { background: var(--ink); color: var(--paper); }
+.pack { background: var(--tint); }
+.form select option { color: #1C1D20; }

@@ -1,0 +1,17 @@
+/* Option F · Pewter: mid-light silver-grey ground, graphite type and cards, yellow only on the action. */
+:root {
+  --paper: #D6D8DB; --tint: #C9CBCF; --ink: #24262A; --ink-2: #55585E; --line: #BCBFC4;
+  --header-bg: rgba(214, 216, 219, 0.93);
+  --accent: #FFC035; --accent-ink: #24262A;
+  --hl-bg: #FFC035; --hl-ink: #24262A; --hl-style: normal;
+  --band: #2B2D31; --band-ink: #ECEDEE; --band-ink-2: #A9ACB2; --band-line: #4A4D53; --band-ph: #7D8086;
+  --on-media: #F2F3F4;
+  --hl-radius: 12px; --hl-pad: 0 0.14em 0.02em; --h1-size: clamp(2.7rem, 7.4vw, 5rem); --h1-lh: 1.08;
+  --radius: 999px; --radius-media: 16px;
+  --f-display: 'Urbanist', 'Inter', system-ui, sans-serif; --display-weight: 600; --display-track: -0.02em;
+}
+.pack { background: #2B2D31; border-color: #2B2D31; color: #ECEDEE; --ink: #ECEDEE; --ink-2: #A9ACB2; }
+.pack li::before { background: #ECEDEE; }
+.btn.line:hover { background: var(--ink); color: var(--paper); }
+.band.tint { background: #CDCFD3; }
+.form select option { color: #1C1D20; }
