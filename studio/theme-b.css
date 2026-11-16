@@ -1,0 +1,14 @@
+/* Option B · Silver: light silver ground, graphite type, yellow only on the action and one highlighted word. */
+:root {
+  --hl-radius: 10px; --hl-pad: 0 0.14em 0.02em; --h1-size: clamp(2.7rem, 7.4vw, 5rem); --h1-lh: 1.08;
+  --paper: #F4F4F5; --tint: #E3E4E6; --ink: #2B2D31; --ink-2: #686B71; --line: #D9DADC;
+  --header-bg: rgba(244, 244, 245, 0.92);
+  --accent: #FFC035; --accent-ink: #2B2D31;
+  --hl-bg: #FFC035; --hl-ink: #2B2D31; --hl-style: normal;
+  --band: #2B2D31; --band-ink: #F4F4F5; --band-ink-2: #B4B6BA; --band-line: #4A4D53; --band-ph: #80838A;
+  --on-media: #ffffff;
+  --radius: 12px; --radius-media: 14px;
+  --f-display: 'Manrope', 'Inter', system-ui, sans-serif; --display-weight: 600; --display-track: -0.025em;
+}
+.pack { background: #ffffff; border-color: #ffffff; }
+.btn.solid:hover { background: var(--ink); border-color: var(--ink); color: var(--paper); }

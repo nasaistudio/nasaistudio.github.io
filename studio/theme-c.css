@@ -1,0 +1,12 @@
+/* Option C · Monochrome gold: white and black like a fashion house, a deeper yellow-gold only on the action. */
+:root {
+  --paper: #FFFFFF; --tint: #F3F3F2; --ink: #0E0E0E; --ink-2: #66666A; --line: #E2E2E2;
+  --header-bg: rgba(255, 255, 255, 0.95);
+  --accent: #E9B22B; --accent-ink: #0E0E0E;
+  --hl-bg: transparent; --hl-ink: inherit; --hl-style: italic;
+  --band: #0E0E0E; --band-ink: #FFFFFF; --band-ink-2: #A9A9AC; --band-line: #3A3A3C; --band-ph: #6E6E72;
+  --on-media: #ffffff;
+  --radius: 0px; --radius-media: 0px;
+  --f-display: 'Cormorant Garamond', 'Times New Roman', serif; --display-weight: 400; --display-track: -0.005em;
+}
+.btn.solid:hover { background: var(--ink); border-color: var(--ink); color: #fff; }
