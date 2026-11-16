@@ -4,12 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>NAS AI Studio · On-model photos and ads for clothing brands</title>
-<meta name="description" content="Send a product photo. Get on-model photos, AI fashion models and UGC-style video ads for your clothing brand, without a photoshoot. Free sample on one garment.">
+<meta name="description" content="Any product. Any model. Any world. Send a product photo and get on-model photos, AI models and cinematic video ads for your brand, without a photoshoot. Free sample on one product.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700&family=Inter:wght@300;400;500&display=swap">
 <link rel="stylesheet" href="studio.css?v=2">
 <link rel="stylesheet" href="theme-silver.css?v=1">
+<link rel="stylesheet" href="hero.css?v=1">
+<link rel="preload" as="image" href="hero/hero_poster.jpg">
 </head>
 <body>
 
@@ -29,34 +31,36 @@
 
 <main id="top">
 
-  <section class="hero">
-    <div class="wrap hero-grid">
-      <div class="hero-copy">
-        <p class="eyebrow">AI studio for clothing brands</p>
-        <h1>Your garments on models.<br> <em>No <mark>photoshoot</mark>.</em></h1>
-        <p class="lede">Send a flat-lay or a phone photo of your product. Get on-model photos, a consistent AI model for your brand and video ads, ready for your store and your feed.</p>
-        <div class="cta">
-          <a class="btn solid" href="#contact">Get a free sample</a>
-          <a class="btn line" href="#work">See the work</a>
-        </div>
-        <ul class="facts">
-          <li><b>Free</b><span>sample on one garment</span></li>
-          <li><b>1 to 3 days</b><span>usual delivery</span></li>
-          <li><b>4 formats</b><span>4:5 · 1:1 · 9:16 · 16:9</span></li>
-        </ul>
+  <section class="vhero" aria-label="Introduction">
+    <video class="vhero-video" muted loop playsinline preload="none" poster="hero/hero_poster.jpg" aria-hidden="true"></video>
+    <div class="vhero-shade" aria-hidden="true"></div>
+    <div class="wrap vhero-copy">
+      <p class="eyebrow">AI studio for brands</p>
+      <h1><span class="nowrap">Any product.</span> <span class="nowrap">Any model.</span> <span class="nowrap">Any <mark>world</mark>.</span></h1>
+      <p class="lede">Send a product photo. Get on-model photos, a consistent AI model for your brand and cinematic video ads, without a photoshoot.</p>
+      <div class="cta">
+        <a class="btn solid" href="#contact">Create now</a>
+        <a class="btn line" href="#work">See the work</a>
       </div>
-      <figure class="hero-media">
-        <div class="ba" style="--p:50%">
-          <div class="layer"><img src="../img/m3-ai.jpg" alt="AI result: a model wearing a charcoal suit, white shirt and tie" width="1200" height="1500"></div>
-          <div class="layer before"><img src="../img/m3-original.jpg" alt="Original product photos: charcoal suit jacket, trousers, white shirt and knit tie" width="1200" height="1500"></div>
-          <span class="tag l">You send</span>
-          <span class="tag r">You get</span>
-          <div class="divider"></div>
-          <div class="knob" aria-hidden="true">‹ ›</div>
-          <input type="range" min="0" max="100" value="50" aria-label="Compare the product photos you send with the finished model image">
-        </div>
-        <figcaption>Drag to compare. Product photos in, finished model image out.</figcaption>
-      </figure>
+    </div>
+    <button class="sound" type="button" aria-pressed="false" hidden><span class="sound-icon" aria-hidden="true"></span><span class="sound-text">Sound on</span></button>
+    <span class="vhero-label">AI-generated</span>
+  </section>
+
+  <section class="worlds" aria-label="Product worlds">
+    <div class="wrap">
+      <div class="worlds-head">
+        <p class="eyebrow">Every product, its own world</p>
+        <p class="worlds-sub">Six products, six AI models from the studio, six worlds. Clothing, fragrance, footwear and accessories.</p>
+      </div>
+      <div class="world-row">
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s1_sofia.jpg"><source src="hero/cards/s1_sofia.mp4" type="video/mp4"></video><figcaption><b>Clothes</b><span>Sofia · silk storm</span></figcaption></figure>
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s2_hamza.jpg"><source src="hero/cards/s2_hamza.mp4" type="video/mp4"></video><figcaption><b>Perfume</b><span>Hamza · glass garden</span></figcaption></figure>
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s3_noor.jpg"><source src="hero/cards/s3_noor.mp4" type="video/mp4"></video><figcaption><b>Shoes</b><span>Noor · mirror pool</span></figcaption></figure>
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s4_karim.jpg"><source src="hero/cards/s4_karim.mp4" type="video/mp4"></video><figcaption><b>Sunglasses</b><span>Karim · sun corridor</span></figcaption></figure>
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s5_isla.jpg"><source src="hero/cards/s5_isla.mp4" type="video/mp4"></video><figcaption><b>Bags</b><span>Isla · liquid chrome</span></figcaption></figure>
+        <figure class="world"><video muted loop playsinline preload="none" poster="hero/cards/s6_oliver.jpg"><source src="hero/cards/s6_oliver.mp4" type="video/mp4"></video><figcaption><b>Watches</b><span>Oliver · floating time</span></figcaption></figure>
+      </div>
     </div>
   </section>
 
@@ -300,5 +304,6 @@
 <a class="sticky-cta" href="#contact">Get a free sample</a>
 
 <script src="studio.js?v=1"></script>
+<script src="hero.js?v=1"></script>
 </body>
 </html>
